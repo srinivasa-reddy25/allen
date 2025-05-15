@@ -1,0 +1,42 @@
+{
+    "slides":[
+        {
+            "src":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_avif,q_auto/v1733911179/m6l4kbtrdldjtbbzuyrk.webp?_upload_ref=ic_img_tool&__ar__=1.78",
+            "alt":"Image 1 for carousel"
+        },
+        {
+            "src":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_avif,q_auto/v1745222201/algooaqu0aioqkysfkd5.png?_upload_ref=ic_img_tool&__ar__=1.78",
+            "alt":"Image 2 for carousel"
+        },
+        {
+            "src":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_avif,q_auto/v1733911254/tjoxygcum0qc6gp9lxuw.webp?_upload_ref=ic_img_tool&__ar__=1.78",
+            "alt":"Image 3 for carousel"
+        },
+        {
+            "src":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_avif,q_auto/v1733911357/o5vw0mvt9ovusu2l8lqe.webp?_upload_ref=ic_img_tool&__ar__=1.78",
+            "alt":"image 4 fro carousel"
+        }
+    ],
+    "Slides2":[
+        {
+            "src":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_avif,q_auto/v1747053629/qi9uqsjw39s4ocslbmiy.png?_upload_ref=ic_img_tool&__ar__=4.03",
+            "alt":"image 1 for slide2"
+        },
+        {
+            "src":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_avif,q_auto/v1746775819/vkvaga2h7eb3obdsnvxt.png?_upload_ref=ic_img_tool&__ar__=4.03https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_auto,q_auto/v1746445051/dwxnbu9ahncsmczd9bbp.png?_upload_ref=ic_img_tool&__ar__=4.03",
+            "alt":"image 2 for slide2"
+        },
+        {
+            "src":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_avif,q_auto/v1746445051/dwxnbu9ahncsmczd9bbp.png?_upload_ref=ic_img_tool&__ar__=4.03",
+            "alt":"image 3 for slide2"
+        },
+        {
+            "src":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_avif,q_auto/v1746632496/yjolikdke62z9xviit8h.png?_upload_ref=ic_img_tool&__ar__=4.03",
+            "alt":"image 4 for slide2"
+        },
+        {
+            "src":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_avif,q_auto/v1744092743/xfqehuywrkzlwbwwjque.png?_upload_ref=ic_img_tool&__ar__=4.03",
+            "alt":"image 5 for slide2"
+        }
+    ]
+}

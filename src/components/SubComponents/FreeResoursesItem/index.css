@@ -1,0 +1,36 @@
+.freeResoursesItem{
+    height: 220px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: relative;
+}
+.freeResoursesItem_name{
+    font-size: 20px;
+    font-weight: 900;
+    color: #000;
+}
+.freeResoursesItem_link{
+    font-size: 16px;
+    font-weight: 800;
+    color: #007BFF;
+    text-decoration: none;
+    display: flex;
+}
+.freeResoursesItem_image{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.arrowIcon{
+    font-size: 20px;
+    color: #007BFF;
+}

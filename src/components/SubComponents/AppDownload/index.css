@@ -1,0 +1,69 @@
+.app_download_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 40px;
+    background-color: #f9f9f9;
+}
+
+.app_download_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.app_download_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.app_download_text span {
+    color: blue;
+}
+
+.app_download_text h1 {
+    font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+
+.Qr_code_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.Qrcode {
+    width: 50%;
+    height: 50%;
+}
+
+.downloadapp_images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between ;
+    gap: 40px;
+    width: 40%;
+    height: 40%;
+    align-self: flex-start;
+    margin-top: 50px;
+}
+
+.downloadapp_images img {
+    width: 100%;
+    height: 100%;
+}
+
+.image_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+}

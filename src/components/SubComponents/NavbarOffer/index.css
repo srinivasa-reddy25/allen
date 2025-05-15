@@ -1,0 +1,33 @@
+.navbar_offer{
+    background-color: rgb(12, 133, 35);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    gap: 20px;
+    padding: 10px;
+
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: yellow;
+    text-align: center;
+    align-self: center;margin: 0;
+}
+
+.offer_text{
+    font-size: 16px;
+    color: white;
+    align-self: center;
+    display: flex;
+    margin: 0;
+}
+.arrowIcon{
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    margin-left: 10px;
+    
+}

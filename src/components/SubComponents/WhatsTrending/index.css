@@ -1,0 +1,16 @@
+.whats_trending_container{
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf2fb;
+    padding-bottom: 60px;
+}
+.whats_trending_container img{
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 30px;
+}

@@ -1,0 +1,62 @@
+.meet_our_champions_container{
+    width: 100%;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf2fb;
+    
+    /* margin-bottom: 1000px; */
+
+}
+.meet_our_champions_heading{
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.meet_our_champions_container img{
+    width: 80vw;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.meet_our_champions_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    gap: 120px;
+    width: 80%;
+    margin-bottom: 50px;
+
+}
+.meet_our_champions_buttons a{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    background-color: #d6e8ff;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 40%;
+}
+.meet_our_champions_buttons a:hover{
+    background-color: #a4c8ff;
+    transition: 0.3s;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.arrowIcon{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    align-self: center;
+    margin-left: 10px;
+}

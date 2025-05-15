@@ -1,0 +1,61 @@
+.TestimonialsItemContainer{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.testimonialDeco{
+    position: absolute;
+    top: -20px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+}
+.studentDescription{
+    font-size: 1rem;
+    text-align: start;
+    margin: 10px 20px  40px 10px;
+}
+.studentDetails_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.studentImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+.studentDetails_description{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+}
+.studentName{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    display: inline;
+}
+.studentCourse{
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+    display: inline;
+}
+.studentMarks{
+    font-size: 0.9rem;
+    color: #555;
+    margin: 0;
+    display: inline;
+}

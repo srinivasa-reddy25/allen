@@ -1,0 +1,59 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 68px;
+
+}
+.navbar_right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.logo_image{
+    width: 100px;
+    height: 30px;
+}
+.nav_links{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.nav_links li{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav_links li:hover{
+    
+    color: #007BFF;
+}
+.navbar_left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.phone_call{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    background-color: #007BFF;
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.login_btn{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid #007BFF;
+}
