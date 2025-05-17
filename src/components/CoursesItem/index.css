@@ -1,0 +1,128 @@
+.courseitemcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    min-height: 280px;
+    max-width: 380px;
+}
+.courseitemcontainer:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+.coursetopContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.tagContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #ff7700;
+    padding: 3px 8px;
+    border-radius: 15px 0 0 15px ;
+    font-size: 13px;
+    position: absolute;
+    right: 0
+}
+.tagContainer p{
+    font-size: 12px;
+    color: white;
+    
+}
+.sessiontypeContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+.courseheadingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.coursetitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    margin-top: 10px;
+}    
+.coursebatchType{
+    font-size: 14px;
+    color: black;
+        margin: 0;
+}
+.coursefeatureslist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6px;
+    list-style-type: none;
+    padding: 0;
+}
+.coursefeatureslist li{
+    font-size: 14px;
+    color: black;
+}
+.coursefeatureslist li::before{
+    content: "✔️";
+    margin-right: 10px;
+}
+.feeandlinkContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+}
+.coursepriceContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.courseprice{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.taxestext{
+    font-size: 12px;
+    color: black;
+}
+.knowmorelink{
+    font-size: 17px;
+    color: blue;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

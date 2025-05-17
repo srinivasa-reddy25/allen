@@ -5,8 +5,9 @@
     width: 100vw;
     gap: 20px;
     padding: 10px;
-
+    cursor: pointer;
 }
+
 .offer{
     display: flex;
     justify-content: center;

@@ -1,26 +1,26 @@
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 
 import TopBar from './components/TopBar/topbar';
-import ScholarShip from './components/ScholarShip/scholarship';
-import SecondPart from './components/SecondPart/secondpart'
-import ThirdPart from'./components/ThirdPart/thirdpart'
-import FourthPart from './components/FourthPart/fourthpart'
 import LastPart from './components/LastPart/lastpart'
-import Feedback from './components/FeedBack/feedback';
-
+import Homepage from './components/HomePage/homepage'
+import NotFound from './components/NotFound/notfound'
+import Coursepage from './components/CoursePage/coursepage'
 
 
 function App() {
   return (
-    <>
-    <TopBar/>
-    <ScholarShip/>
-    <SecondPart/>
-    <ThirdPart/>
-    <FourthPart/>
-    <Feedback/>
-    <LastPart/>
-    </>
+    <BrowserRouter>
+      <TopBar />
+      <Routes>
+        <Route path='/' element={<Homepage />} />
+        <Route path='/neet/online-coaching-class-11' element={<Coursepage />} />
+        
+        <Route path='*' element={<NotFound />}></Route>
+      </Routes>
+      <LastPart/>
+    </BrowserRouter>
   )
 }
 

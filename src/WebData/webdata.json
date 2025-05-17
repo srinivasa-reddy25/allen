@@ -1,129 +1,281 @@
 {
-    "AllenAppAdvantageData":[
-    {
-        "id":1,
-        "title":"400 Lakh+ Questions Practised",
-        "discription":"Boost your score with practice! Pick topics & difficulty level, and let AI target your weak areas",
-        "imageUrl":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1731330769/vtga4hno9tvp668jm34i.svg?_upload_ref=ic_img_tool",
-        "isActive":false
-    },
-    {
-        "id":2,
-        "title":"10 Lakh+ hours of Learning Content consumed",
-        "discription":"Watch live or recorded lectures from ALLEN's top faculty, covering every topic and difficulty level.",
-        "imageUrl":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1731330884/lls3agf6fwmht6zba5vx.svg?_upload_ref=ic_img_tool",
-        "isActive":true
-    },
-    {
-        "id":3,
-        "title":"10 Lakh+ Doubts Solved",
-        "discription":"Get instant answers with faculty help & our AI Assistant available 24/7 in any language.",
-        "imageUrl":"https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1731330851/jncudghayyflxuxoodkg.svg?_upload_ref=ic_img_tool",
-        "isActive":true
-    }],
-    "freeResoursesData":[
+    "AllenAppAdvantageData": [
         {
-        "id":1,
-        "name":"Mock Tests - JEE & NEET",
-        "imageUrl":"https://cdn-icons-png.freepik.com/512/6750/6750147.png",
-        "LinkName":"Take Test now"
-    },
-    {
-        "id":2,
-        "name":"NEET Complete Study Guide",
-        "imageUrl":"https://www.cashe.co.in/wp-content/uploads/2023/12/Medical-2-1.png",
-        "LinkName":"Explore now"
-    },
-    {
-        "id":3,
-        "name":"JEE Advanced Complete Study Guide",
-        "imageUrl":"https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-student-success-vector-png-image_6983593.png",
-        "LinkName":"Explore now"
-    }
-    ],
-    "courses":[
+            "id": 1,
+            "title": "400 Lakh+ Questions Practised",
+            "discription": "Boost your score with practice! Pick topics & difficulty level, and let AI target your weak areas",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1731330769/vtga4hno9tvp668jm34i.svg?_upload_ref=ic_img_tool",
+            "isActive": false
+        },
         {
-        "id":1,
-        "name":"JEE",
-        "imageUrl":"https://cdn-icons-png.freepik.com/512/6750/6750147.png"
-    },
-    {
-        "id":2,
-        "name":"NEET",
-        "imageUrl":"https://www.cashe.co.in/wp-content/uploads/2023/12/Medical-2-1.png"
-    },
-    {
-        "id":3,
-        "name":"Class 6-10",
-        "imageUrl":"https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-student-success-vector-png-image_6983593.png"
-    }
-    ],
-    "TestimonialsData":[
+            "id": 2,
+            "title": "10 Lakh+ hours of Learning Content consumed",
+            "discription": "Watch live or recorded lectures from ALLEN's top faculty, covering every topic and difficulty level.",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1731330884/lls3agf6fwmht6zba5vx.svg?_upload_ref=ic_img_tool",
+            "isActive": true
+        },
         {
-        "id":1,
-        "studentName":"SARTH PATIL",
-        "StudentCourse":"NEET-UG 2024, Score",
-        "studentMarks":"710/720",
-        "studentImage":"https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Sarth-128x128_wrp1pw.webp",
-        "studentDescription":"I chose ALLEN Online Courses because I wanted to balance my NEET prep with my school schedule. The course structure, from daily homework to post-class handouts, was well-organized."
-    },
-    {
-        "id":2,
-        "studentName":"SEKH GALIB RAZA",
-        "StudentCourse":"NEET-UG 2024, Score",
-        "studentMarks":"690/720",
-        "studentImage":"https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Galib-128x128_1_ktw4sw.webp",
-        "studentDescription":"I took NEET in 2023 but didn’t achieve my desired score, so I reattempted in 2024 with ALLEN Online Courses. The top-quality faculty, study material, & personalised experience on the ALLEN app helped me improve my score."
-    },
-    {
-        "id":3,
-        "studentName":"AVIK DAS",
-        "StudentCourse":"JEE Adv. 2024, AIR 69",
-        "studentMarks":"",
-        "studentImage":"https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Avik-128x128_vbkt1r.webp",
-        "studentDescription":"I wanted to stay with my family while preparing for JEE, so I chose ALLEN Online Courses. The faculty was great & the live classes, daily homework & test series helped me secure a great score & rank!"
-    },
-    {
-        "id":4,
-        "studentName":"SHIFA FATIMA",
-        "StudentCourse":"NEET-UG 2024, Score",
-        "studentMarks":"696/720",
-        "studentImage":"https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Shifa-128x128_yjuigd.webp",
-        "studentDescription":"I came to know about ALLEN’s Online Test Series from my senior in school. The tests are really awesome as these are based mainly on NCERT and cover almost all types of NEET questions. They gave me the real feel of the competition."
-    }
+            "id": 3,
+            "title": "10 Lakh+ Doubts Solved",
+            "discription": "Get instant answers with faculty help & our AI Assistant available 24/7 in any language.",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1731330851/jncudghayyflxuxoodkg.svg?_upload_ref=ic_img_tool",
+            "isActive": true
+        }
     ],
-    "whyallenOnlineData":[
+    "freeResoursesData": [
         {
-        "id": 1,
-        "title": "Kota Faculty",
-        "description": "Expert faculty, top-notch study material and teaching methods perfected in Kota over 35+ years",
-        "imageUrl":"https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489047/1_dfic0f.svg"
-    },
-    {
-        "id": 2,
-        "title": "Proven Results",
-        "description": "Stellar results delivered through Online Courses across JEE, NEET, Olympiads and 10th Board Exams",
-        "imageUrl":"https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489326/2_ddboz0.svg"
-    },
-    {
-        "id": 3,
-        "title": "Learning Tools",
-        "description": "24x7 doubt resolution and customized study material to test, and improve continuously",
-        "imageUrl":"https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489375/3_ivbkv8.svg"
-    },
-    {
-        "id": 4,
-        "title": "Mentor Support",
-        "description": "Regular mentorship sessions with mentor, regular mentorship sessions, guidance on exam strategy & updates to parents",
-        "imageUrl":"https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489375/4_ar5ewd.svg"
-    }
+            "id": 1,
+            "name": "Mock Tests - JEE & NEET",
+            "imageUrl": "https://cdn-icons-png.freepik.com/512/6750/6750147.png",
+            "LinkName": "Take Test now"
+        },
+        {
+            "id": 2,
+            "name": "NEET Complete Study Guide",
+            "imageUrl": "https://www.cashe.co.in/wp-content/uploads/2023/12/Medical-2-1.png",
+            "LinkName": "Explore now"
+        },
+        {
+            "id": 3,
+            "name": "JEE Advanced Complete Study Guide",
+            "imageUrl": "https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-student-success-vector-png-image_6983593.png",
+            "LinkName": "Explore now"
+        }
     ],
-    "FooterData":[
-        ["About", "About us", "Blog", "News", "MyExam EduBlogs", "Privacy policy", "Public notice", "Careers", "Dhoni Inspires NEET Aspirants", "Dhoni Inspires JEE Aspirants"],
-        ["Help & Support", "Refund policy", "Transfer policy", "Terms & Conditions", "Contact us"],
-        ["Popular goals", "NEET Coaching", "JEE Coaching", "6th to 10th"],
-        ["Courses", "Online Courses", "Distance Learning", "Online Test Series", "International Olympiads Online Course", "NEET Test Series", "JEE Test Series", "JEE Main Test Series"],
-        ["Centers", "Kota", "Bangalore", "Indore", "Delhi", "More centres"],
-        ["Exam information", "JEE Main", "JEE Advanced", "NEET UG", "CBSE", "NCERT Solutions", "NEET Mock Test", "Olympiad", "NEET 2025 Answer Key"]
+    "courses": [
+        {
+            "id": 1,
+            "name": "JEE",
+            "imageUrl": "https://cdn-icons-png.freepik.com/512/6750/6750147.png"
+        },
+        {
+            "id": 2,
+            "name": "NEET",
+            "imageUrl": "https://www.cashe.co.in/wp-content/uploads/2023/12/Medical-2-1.png"
+        },
+        {
+            "id": 3,
+            "name": "Class 6-10",
+            "imageUrl": "https://png.pngtree.com/png-vector/20230728/ourmid/pngtree-student-success-vector-png-image_6983593.png"
+        }
+    ],
+    "TestimonialsData": [
+        {
+            "id": 1,
+            "studentName": "SARTH PATIL",
+            "StudentCourse": "NEET-UG 2024, Score",
+            "studentMarks": "710/720",
+            "studentImage": "https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Sarth-128x128_wrp1pw.webp",
+            "studentDescription": "I chose ALLEN Online Courses because I wanted to balance my NEET prep with my school schedule. The course structure, from daily homework to post-class handouts, was well-organized."
+        },
+        {
+            "id": 2,
+            "studentName": "SEKH GALIB RAZA",
+            "StudentCourse": "NEET-UG 2024, Score",
+            "studentMarks": "690/720",
+            "studentImage": "https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Galib-128x128_1_ktw4sw.webp",
+            "studentDescription": "I took NEET in 2023 but didn’t achieve my desired score, so I reattempted in 2024 with ALLEN Online Courses. The top-quality faculty, study material, & personalised experience on the ALLEN app helped me improve my score."
+        },
+        {
+            "id": 3,
+            "studentName": "AVIK DAS",
+            "StudentCourse": "JEE Adv. 2024, AIR 69",
+            "studentMarks": "",
+            "studentImage": "https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Avik-128x128_vbkt1r.webp",
+            "studentDescription": "I wanted to stay with my family while preparing for JEE, so I chose ALLEN Online Courses. The faculty was great & the live classes, daily homework & test series helped me secure a great score & rank!"
+        },
+        {
+            "id": 4,
+            "studentName": "SHIFA FATIMA",
+            "StudentCourse": "NEET-UG 2024, Score",
+            "studentMarks": "696/720",
+            "studentImage": "https://res.cloudinary.com/dpzpn3dkw/image/upload/v1725858116/Shifa-128x128_yjuigd.webp",
+            "studentDescription": "I came to know about ALLEN’s Online Test Series from my senior in school. The tests are really awesome as these are based mainly on NCERT and cover almost all types of NEET questions. They gave me the real feel of the competition."
+        }
+    ],
+    "whyallenOnlineData": [
+        {
+            "id": 1,
+            "title": "Kota Faculty",
+            "description": "Expert faculty, top-notch study material and teaching methods perfected in Kota over 35+ years",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489047/1_dfic0f.svg"
+        },
+        {
+            "id": 2,
+            "title": "Proven Results",
+            "description": "Stellar results delivered through Online Courses across JEE, NEET, Olympiads and 10th Board Exams",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489326/2_ddboz0.svg"
+        },
+        {
+            "id": 3,
+            "title": "Learning Tools",
+            "description": "24x7 doubt resolution and customized study material to test, and improve continuously",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489375/3_ivbkv8.svg"
+        },
+        {
+            "id": 4,
+            "title": "Mentor Support",
+            "description": "Regular mentorship sessions with mentor, regular mentorship sessions, guidance on exam strategy & updates to parents",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/f_avif/v1731489375/4_ar5ewd.svg"
+        }
+    ],
+    "FooterData": [
+        [
+            "About",
+            "About us",
+            "Blog",
+            "News",
+            "MyExam EduBlogs",
+            "Privacy policy",
+            "Public notice",
+            "Careers",
+            "Dhoni Inspires NEET Aspirants",
+            "Dhoni Inspires JEE Aspirants"
+        ],
+        [
+            "Help & Support",
+            "Refund policy",
+            "Transfer policy",
+            "Terms & Conditions",
+            "Contact us"
+        ],
+        [
+            "Popular goals",
+            "NEET Coaching",
+            "JEE Coaching",
+            "6th to 10th"
+        ],
+        [
+            "Courses",
+            "Online Courses",
+            "Distance Learning",
+            "Online Test Series",
+            "International Olympiads Online Course",
+            "NEET Test Series",
+            "JEE Test Series",
+            "JEE Main Test Series"
+        ],
+        [
+            "Centers",
+            "Kota",
+            "Bangalore",
+            "Indore",
+            "Delhi",
+            "More centres"
+        ],
+        [
+            "Exam information",
+            "JEE Main",
+            "JEE Advanced",
+            "NEET UG",
+            "CBSE",
+            "NCERT Solutions",
+            "NEET Mock Test",
+            "Olympiad",
+            "NEET 2025 Answer Key"
+        ]
+    ],
+    "CoursesData": [
+        {
+            "filtertype": "LIVE",
+            "title": "Nurture Online Course",
+            "batchType": "Weekday Batch",
+            "features": [
+                "Live classes from ALLEN Kota's top faculty",
+                "Up to 20 online tests",
+                "24/7 doubt resolution, mentorship & more"
+            ],
+            "price": 85000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "LIVE",
+            "title": "Nurture Online Course",
+            "batchType": "Weekday Batch",
+            "features": [
+                "Live classes from ALLEN Kota's top faculty",
+                "Up to 20 online tests",
+                "24/7 doubt resolution, mentorship & more"
+            ],
+            "price": 85000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": "NEW LAUNCH"
+        },
+        {
+            "filtertype": "RECORDED",
+            "title": "Nurture Self – Study Plus",
+            "batchType": "Video lectures + Test series",
+            "features": [
+                "Latest recordings covering full syllabus",
+                "Digital study material incl. books, RACEs & more",
+                "25 (part + full) syllabus tests"
+            ],
+            "price": 9000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": "AOSAT SCHOOL ELIGIBLE"
+        },
+        {
+            "filtertype": "RECORDED",
+            "title": "Nurture Self–Study Classic",
+            "batchType": "Video Lectures",
+            "features": [
+                "Latest recordings covering full syllabus",
+                "Digital study material incl. books, RACEs & more"
+            ],
+            "price": 4200,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "ONLINE TEST SERIES",
+            "title": "Nurture Test Series",
+            "batchType": "All India Test Series – ONLINE mode",
+            "features": [
+                "25 (part + full) syllabus tests",
+                "Detailed solutions of all questions",
+                "Exclusive ALLEN's Question Bank"
+            ],
+            "price": 6700,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "OFFLINE TEST SERIES",
+            "title": "Nurture Test Series (Allen DLP)",
+            "batchType": "All India Test Series – PEN & PAPER mode",
+            "features": [
+                "19 (part + full) syllabus tests",
+                "Access largest network of 300+ test centers"
+            ],
+            "price": 12712,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "PRACTICE",
+            "title": "Nurture Practice Package",
+            "batchType": "Allen Question Bank",
+            "features": [
+                "15,000+ curated questions covering full syllabus",
+                "RACEs, PYQs and more"
+            ],
+            "price": 1600,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹"
+        }
     ]
 }

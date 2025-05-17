@@ -29,7 +29,12 @@
     cursor: pointer;
     text-decoration: none;
 }
-.nav_links li:hover{
+.nav_links li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.nav_links li a:hover{
     
     color: #007BFF;
 }
