@@ -8,7 +8,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const IconsData = {
     LIVE: <RiLiveLine />,
-    Onlinetestseries: <LuNotebookPen />,
+    ONLINETESTSERIES: <LuNotebookPen />,
     RECORDED: <BsCollectionPlay />,
     PRACTICE: <TfiWrite />
 }
@@ -22,12 +22,11 @@ function Coursesitem({ CourseData }) {
             <div className='coursetopContainer'>
                 <div className='sessiontypeContainer'>
                     {IconsData[CourseData.filtertype]}
-                    {CourseData.filtertype}
+                    {CourseData.filterText}
                 </div>
                 {CourseData.tag && <div className='tagContainer'>
                     <p>{CourseData.tag}</p>
                 </div>}
-
             </div>
 
             <div className='courseheadingContainer'>

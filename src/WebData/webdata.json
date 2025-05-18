@@ -175,9 +175,10 @@
             "NEET 2025 Answer Key"
         ]
     ],
-    "CoursesData": [
+    "class11NeetCoursePageData": [
         {
             "filtertype": "LIVE",
+            "filterText": "LIVE",
             "title": "Nurture Online Course",
             "batchType": "Weekday Batch",
             "features": [
@@ -193,6 +194,7 @@
         },
         {
             "filtertype": "LIVE",
+            "filterText": "LIVE",
             "title": "Nurture Online Course",
             "batchType": "Weekday Batch",
             "features": [
@@ -208,6 +210,7 @@
         },
         {
             "filtertype": "RECORDED",
+            "filterText": "RECORDED",
             "title": "Nurture Self – Study Plus",
             "batchType": "Video lectures + Test series",
             "features": [
@@ -223,6 +226,7 @@
         },
         {
             "filtertype": "RECORDED",
+            "filterText": "RECORDED",
             "title": "Nurture Self–Study Classic",
             "batchType": "Video Lectures",
             "features": [
@@ -236,7 +240,8 @@
             "tag": ""
         },
         {
-            "filtertype": "ONLINE TEST SERIES",
+            "filtertype": "ONLINETESTSERIES",
+            "filterText": "ONLINE TEST SERIES",
             "title": "Nurture Test Series",
             "batchType": "All India Test Series – ONLINE mode",
             "features": [
@@ -251,7 +256,8 @@
             "tag": ""
         },
         {
-            "filtertype": "OFFLINE TEST SERIES",
+            "filtertype": "ONLINETESTSERIES",
+            "filterText": "OFFLINE TEST SERIES",
             "title": "Nurture Test Series (Allen DLP)",
             "batchType": "All India Test Series – PEN & PAPER mode",
             "features": [
@@ -266,8 +272,240 @@
         },
         {
             "filtertype": "PRACTICE",
+            "filterText": "PRACTICE",
             "title": "Nurture Practice Package",
             "batchType": "Allen Question Bank",
+            "features": [
+                "15,000+ curated questions covering full syllabus",
+                "RACEs, PYQs and more"
+            ],
+            "price": 1600,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹"
+        }
+    ],
+    "class12NeetCoursePageData": [
+        {
+            "filtertype": "LIVE",
+            "filterText": "LIVE",
+            "title": "Enthusiast Online Course",
+            "batchType": "360° Learning with top Kota faculty",
+            "features": [
+                "Interactive LIVE classes with personalised attention",
+                "Extra Edge with faculty: Mentorship, doubts, revision & more",
+                "Allen App advantage + Tests with national benchmarking"
+            ],
+            "price": 89000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "LIVE",
+            "filterText": "LIVE",
+            "title": "PowerPlus Online Course",
+            "batchType": "Morning batch from 8:00 AM to 1:00 PM",
+            "features": [
+                "LIVE classes with top Kota faculty",
+                "24/7 AI-powered doubt support",
+                "Practice & revision on Allen app"
+            ],
+            "price": 25000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "RECORDED",
+            "filterText": "RECORDED + TEST SERIES",
+            "title": "Enthusiast Self – Study Plus",
+            "batchType": "Video lectures + Test series",
+            "features": [
+                "Latest recordings covering full syllabus",
+                "Digital study material incl. books, RACEs & more",
+                "24 (part + full) syllabus tests"
+            ],
+            "price": 9000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": "AOSAT SCHOOL ELIGIBLE"
+        },
+        {
+            "filtertype": "RECORDED",
+            "filterText": "RECORDED",
+            "title": "Enthusiast Self–Study Classic",
+            "batchType": "Video Lectures",
+            "features": [
+                "Latest recordings covering full syllabus",
+                "Digital study material incl. books, RACEs & more"
+            ],
+            "price": 5000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "LIVE",
+            "filterText": "LIVE",
+            "title": "NEET 2026 | AARAMBH Batch | हिंदी माध्यम | Class 12",
+            "batchType": "DoubtNut के Top Teachers से लाइव क्लासेस",
+            "features": [
+                "15 से ज़्यादा ऑनलाइन टेस्ट",
+                "मेंटॉरिंग, शैक्षणिक मार्गदर्शन और बहुत कुछ"
+            ],
+            "price": 3983,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "ONLINETESTSERIES",
+            "filterText": "ONLINE TEST SERIES",
+            "title": "Enthusiast Test Series",
+            "mode": "All India Test Series - ONLINE mode",
+            "features": [
+                "24 (part + full) syllabus tests",
+                "Detailed solutions of all questions",
+                "Exclusive ALLEN's Question Bank"
+            ],
+            "price": 5000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹"
+        },
+        {
+            "filtertype": "ONLINETESTSERIES",
+            "filterText": "OFFLINE TEST SERIES",
+            "title": "Leader Test Series (Allen DLP)",
+            "mode": "All India Test Series - PEN & PAPER mode",
+            "features": [
+                "26 (part + full) syllabus tests",
+                "Access largest network of 300+ test centers"
+            ],
+            "price": 10170,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹"
+        },
+        {
+            "filtertype": "PRACTICE",
+            "filterText": "PRACTICE",
+            "title": "Enthusiast Practice Package",
+            "source": "Allen Question Bank",
+            "features": [
+                "15,000+ curated questions covering full syllabus",
+                "RACEs, PYQs and more"
+            ],
+            "price": 1600,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹"
+        }
+    ],
+    "class12passNeetCoursePageData": [
+        {
+            "filtertype": "LIVE",
+            "filterText": "LIVE",
+            "title": "Leader Online Course",
+            "batchType": "Focuses on basic + advanced concepts",
+            "features": [
+                "Interactive LIVE classes with personalised attention",
+                "360° learning with faculty: Mentorship, doubts, revision & more",
+                "ALLEN App Advantage + Tests with national benchmarking"
+            ],
+            "price": 80100,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": "UP TO 90% SCHOLARSHIP"
+        },
+        {
+            "filtertype": "RECORDED",
+            "filterText": "RECORDED",
+            "title": "Achiever Online Course",
+            "batchType": "Focuses on advanced concepts",
+            "features": [
+                "Interactive LIVE classes with personalised attention",
+                "200+ hrs of LIVE revision & doubt classes",
+                "ALLEN App Advantage + Tests with national benchmarking"
+            ],
+            "price": 68500,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": "UP TO 90% SCHOLARSHIP"
+        },
+        {
+            "filtertype": "LIVE",
+            "filterText": "LIVE",
+            "title": "PowerPlus Online Course",
+            "batchType": "Must-have addition to your preparation",
+            "features": [
+                "LIVE classes with top Kota faculty",
+                "24/7 AI-powered doubt support",
+                "Practice & revision on Allen app"
+            ],
+            "price": 25000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "LIVE",
+            "filterText": "LIVE",
+            "title": "NEET 2026 | AARAMBH Batch | हिंदी माध्यम | Class 12+",
+            "batchType": "DoubtNut के Top Teachers से लाइव क्लासेस",
+            "features": [
+                "15 से ज़्यादा ऑनलाइन टेस्ट",
+                "मेंटॉरिंग, शैक्षणिक मार्गदर्शन और बहुत कुछ"
+            ],
+            "price": 3983,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "filtertype": "ONLINETESTSERIES",
+            "filterText": "ONLINE TEST SERIES",
+            "title": "Leader Test Series: Target 2026",
+            "mode": "All India Test Series - ONLINE mode",
+            "features": [
+                "24 (part + full) syllabus tests",
+                "Detailed solutions of all questions",
+                "Exclusive ALLEN's Question Bank"
+            ],
+            "price": 5000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹"
+        },
+        {
+            "filtertype": "ONLINETESTSERIES",
+            "filterText": "OFFLINE TEST SERIES",
+            "title": "Leader Test Series (Allen DLP)",
+            "mode": "All India Test Series - PEN & PAPER mode",
+            "features": [
+                "26 (part + full) syllabus tests",
+                "Access largest network of 300+ test centers"
+            ],
+            "price": 10170,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹"
+        },
+        {
+            "filtertype": "PRACTICE",
+            "filterText": "PRACTICE",
+            "title": "Leader Practice Package",
+            "source": "Allen Question Bank",
             "features": [
                 "15,000+ curated questions covering full syllabus",
                 "RACEs, PYQs and more"

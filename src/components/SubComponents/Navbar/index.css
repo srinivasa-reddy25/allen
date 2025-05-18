@@ -62,3 +62,164 @@
     cursor: pointer;
     border: 3px solid #007BFF;
 }
+
+
+
+.courselinkdropdown{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.courselinkname{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.courselinkdropdown_menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    z-index: 10;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+.courselinkname:hover{
+    color: #007BFF;
+}
+
+.courselinkdropdown_menu li {
+    padding: 12px 20px;
+    color: #222;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.courselinkdropdown_menu li:hover {
+    background: #e6f0ff;
+    color: #0366d9;
+}
+
+.courselinkdropdown:hover .courselinkdropdown_menu {
+    display: block;
+}
+
+.neetlinksubdropdown {
+    position: relative;
+}
+
+.neetlinkname::after {
+    content: " ▶";
+    font-size: 12px;
+    color: #0366d9;
+    margin-left: 6px;
+}
+
+.neetlinkdropdown_submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #fff;
+    min-width: 160px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    padding: 0;
+    margin: 0;
+    z-index: 20;
+    list-style: none;
+}
+
+.neetlinkdropdown_submenu .neetlinkdropdown_link {
+   display: block;
+    padding: 10px 18px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.2s, color 0.2s;
+    border-radius: 4px;
+}
+
+.neetlinkdropdown_submenu .neetlinkdropdown_link:hover {
+    background: #f0f8ff;
+    color: #007BFF;
+}
+
+.neetlinksubdropdown:hover .neetlinkdropdown_submenu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .courselinkdropdown {
+    position: relative;
+}
+
+.courselinkdropdown_menu {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.courselinkdropdown_menu li {
+    padding: 10px 16px;
+}
+
+.courselinkdropdown:hover .courselinkdropdown_menu {
+    display: block;
+}
+
+
+.neetlinksubdropdown{
+    position: relative;
+}
+
+.neetlinkdropdown_submenu{
+    background: white;
+    min-width: 160px;
+    z-index: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 100%;
+}
+
+.neetlinkdropdown_submenu li {
+    padding: 10px 16px;
+}
+.neetlinksubdropdown:hover .neetlinkdropdown_submenu {
+    display: block;
+} */

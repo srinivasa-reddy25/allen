@@ -9,20 +9,11 @@ import { TfiWrite } from "react-icons/tfi";
 
 import Coursescomponent from '../CoursesComponent/coursescomponent'
 
-import { CoursesData } from '../../WebData/webdata.json'
-
-const LIVE = CoursesData.filter((course) => course.filtertype === "LIVE")
-const Recorded = CoursesData.filter((course) => course.filtertype === "RECORDED")
-const Practice = CoursesData.filter((course) => course.filtertype === "PRACTICE")
-const Onlinetestseries = CoursesData.filter((course) => course.filtertype === "ONLINE TEST SERIES" || course.filtertype === "OFFLINE TEST SERIES")
-
-
 import Add from '../SubComponents/Add/add'
 
 
 
-function Coursepage() {
-    // console.log(Recorded)
+function NeetCoursepage({ pageclass, courseData }) {
 
     const [isLiveActive, setIsLiveActive] = useState(false);
     const [isRecordedActive, setIsRecordedActive] = useState(false);
@@ -30,8 +21,16 @@ function Coursepage() {
     const [isOnlineTestActive, setIsOnlineTestActive] = useState(false);
     const [selectedYear, setSelectedYear] = useState("");
 
-    const [displayData, setDisplayData] = useState([LIVE, Recorded, Practice, Onlinetestseries]);
+    // console.log(courseData);
+    
+    const LIVE = courseData.filter((course) => course.filtertype === "LIVE")
+    const Recorded = courseData.filter((course) => course.filtertype === "RECORDED")
+    const Practice = courseData.filter((course) => course.filtertype === "PRACTICE")
+    const Onlinetestseries = courseData.filter((course) => course.filtertype === "ONLINETESTSERIES")
 
+    // console.log(LIVE, Recorded, Practice, Onlinetestseries);
+
+    const [displayData, setDisplayData] = useState([]);
 
     const onclikinglivefilter = () => {
         setIsLiveActive((prev) => !prev);
@@ -50,6 +49,7 @@ function Coursepage() {
         setIsOnlineTestActive((prev) => !prev);
 
     }
+
     useEffect(() => {
 
         const FilteringThedata = () => {
@@ -76,7 +76,7 @@ function Coursepage() {
         }
         FilteringThedata();
 
-    }, [isLiveActive, isRecordedActive, isPracticeActive, isOnlineTestActive])
+    }, [isLiveActive, isRecordedActive, isPracticeActive, isOnlineTestActive,courseData])
 
 
     const style1 = {
@@ -88,7 +88,7 @@ function Coursepage() {
         <div className='CoursesPageContainer'>
             {/* <hr /> */}
             <div className='CoursesPage'>
-                <h1 className='Coursepagemainheading'>NEET courses for Class 11th</h1>
+                <h1 className='Coursepagemainheading'>NEET courses for Class {pageclass}</h1>
                 <div className='filtersbtnContainer'>
                     <select className='yearSelectionDropdown'>
                         <option value="">Select Year</option>
@@ -96,38 +96,20 @@ function Coursepage() {
                         <option value="2025">2025</option>
                         <option value="2026">2026</option>
                     </select>
-                    {isLiveActive ?
-                        <button className='livefilterbtn' onClick={onclikinglivefilter} style={style1}> <RiLiveLine /> Live  <RxCross2 /></button>
-                        :
-                        <button className='livefilterbtn' onClick={onclikinglivefilter}> <RiLiveLine /> Live  </button>
-                    }
-                    {isOnlineTestActive ?
-                        <button className='onlinetestfilterbtn' onClick={onclikingtestfilter} style={style1}><LuNotebookPen /> Online test series  <RxCross2 /></button>
-                        :
-                        <button className='onlinetestfilterbtn' onClick={onclikingtestfilter}><LuNotebookPen /> Online test series</button>
-                    }
-                    {isRecordedActive ?
-                        <button className='reacorderfilterbtn' onClick={onclikingrecordedfilter} style={style1}><BsCollectionPlay /> Recorded  <RxCross2 /></button>
-                        :
-                        <button className='reacorderfilterbtn' onClick={onclikingrecordedfilter}><BsCollectionPlay /> Recorded</button>
-                    }
-                    {isPracticeActive ?
-                        <button className='parcticefilterbtn' onClick={onclikingpracticefilter} style={style1}> <TfiWrite /> Practice  <RxCross2 /></button>
-                        :
-                        <button className='parcticefilterbtn' onClick={onclikingpracticefilter}> <TfiWrite /> Practice</button>
-                    }
-
+                    <button className='livefilterbtn' onClick={onclikinglivefilter} style={isLiveActive ? style1 : null}> <RiLiveLine /> {isLiveActive ? <>Live <RxCross2 /></> : 'Live'}</button>
+                    <button className='onlinetestfilterbtn' onClick={onclikingtestfilter} style={isOnlineTestActive ? style1 : null}><LuNotebookPen />  {isOnlineTestActive ? <>Online test series <RxCross2 /></> : "Online test series"}</button>
+                    <button className='reacorderfilterbtn' onClick={onclikingrecordedfilter} style={isRecordedActive ? style1 : null}><BsCollectionPlay />{isRecordedActive ? <>Recorded <RxCross2 /></> : "Recorded"}</button>
+                    <button className='parcticefilterbtn' onClick={onclikingpracticefilter} style={isPracticeActive ? style1 : null}> <TfiWrite />  {isPracticeActive ? <>Practice <RxCross2 /></> : "Practice"}</button>
                 </div>
                 {
                     displayData.map((course, index) => (
                         <Coursescomponent key={index} componentdata={course} />
                     ))
                 }
-
             </div>
             <Add url="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_avif,q_auto/v1744021326/fvhneghjwyn9drp37bh9.png?_upload_ref=ic_img_tool&__ar__=4.03" />
         </div>
     )
 }
 
-export default Coursepage
+export default NeetCoursepage

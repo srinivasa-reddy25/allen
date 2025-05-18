@@ -20,3 +20,9 @@
     flex-wrap: wrap;
     gap: 20px;
 }
+.CourseComponetLine{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    /* background-color: #e10b0b; */
+}

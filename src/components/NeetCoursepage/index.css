@@ -55,25 +55,8 @@
     justify-content: center;
     gap: 10px;
 }
-.liveOnlinecourseContainer,.recordedcourseContainer,.practicecourseContainer,.onlinetestcourseContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.liveOnlinecourseContainer h1,.recordedcourseContainer h1,.practicecourseContainer h1,.onlinetestcourseContainer h1{
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
-    align-self: flex-start;
-}
-.livecourseList,.recordedcourseList,.practicecourseList,.onlinetestcourseList{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 20px;
+.livefilterbtn:hover,.onlinetestfilterbtn:hover,.reacorderfilterbtn:hover,.parcticefilterbtn:hover{
+    /* background-color: #d1e7fd; */
+    color: #0d6efd;
+    border-color: #0d6efd;
 }

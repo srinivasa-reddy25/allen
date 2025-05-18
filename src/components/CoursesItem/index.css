@@ -24,6 +24,7 @@
     align-items: center;
     width: 100%;
     margin-bottom: 10px;
+    /* margin-left: -20px; */
     
 }
 .tagContainer{
@@ -33,14 +34,16 @@
     align-items: center;
     gap: 10px;
     background-color: #ff7700;
-    padding: 3px 8px;
+    padding: 1px 5px;
     border-radius: 15px 0 0 15px ;
-    font-size: 13px;
+
     position: absolute;
-    right: 0
+    right: 0;
+
+    
 }
 .tagContainer p{
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     
 }
