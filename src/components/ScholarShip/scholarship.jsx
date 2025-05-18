@@ -35,7 +35,7 @@ const ScholarShip = () => {
                     {/* <img src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_avif,q_auto/v1745222201/algooaqu0aioqkysfkd5.png?_upload_ref=ic_img_tool&__ar__=1.78" alt="" /> */}
                 </div>
             </div>
-            <Add url={""}/>
+            {/* <Add url={""}/> */}
         </div>
 
 

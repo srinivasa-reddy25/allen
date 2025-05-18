@@ -18,7 +18,7 @@ const Feedback = () => {
                             <input type="text" id='StudentName' placeholder='Ex: Rohit Singh ' />
                         </div>
                         <div className='StudentNumber_container'>
-                            <label htmlFor="ParentName" >
+                            <label htmlFor="studentNumber" >
                                 studentNumber
                             </label>
                             <input type="text" id='studentNumber' placeholder='Ex: +91 9876543210' />
