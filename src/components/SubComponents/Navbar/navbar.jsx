@@ -34,6 +34,11 @@ const Navbar = () => {
                         Study Materials
                     </li>
                     <li>
+                        <Link to="/tallentex" className='scholarship_link'>
+                            Scholarships
+                        </Link>
+                    </li>
+                    <li>
                         Books
                     </li>
                     <li>

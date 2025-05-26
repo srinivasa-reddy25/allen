@@ -19,22 +19,19 @@ function NeetCoursepage({ pageclass, courseData }) {
     const [isRecordedActive, setIsRecordedActive] = useState(false);
     const [isPracticeActive, setIsPracticeActive] = useState(false);
     const [isOnlineTestActive, setIsOnlineTestActive] = useState(false);
-    const [selectedYear, setSelectedYear] = useState("");
+    const [displayData, setDisplayData] = useState([]);
 
-    // console.log(courseData);
-    
+    const { categories } = courseData[0]
+    console.log(categories[0]);
+
     const LIVE = courseData.filter((course) => course.filtertype === "LIVE")
     const Recorded = courseData.filter((course) => course.filtertype === "RECORDED")
     const Practice = courseData.filter((course) => course.filtertype === "PRACTICE")
     const Onlinetestseries = courseData.filter((course) => course.filtertype === "ONLINETESTSERIES")
-
-    // console.log(LIVE, Recorded, Practice, Onlinetestseries);
-
-    const [displayData, setDisplayData] = useState([]);
+    
 
     const onclikinglivefilter = () => {
         setIsLiveActive((prev) => !prev);
-        console.log(isLiveActive);
 
     }
     const onclikingrecordedfilter = () => {
@@ -51,7 +48,6 @@ function NeetCoursepage({ pageclass, courseData }) {
     }
 
     useEffect(() => {
-
         const FilteringThedata = () => {
             if (!(isLiveActive || isRecordedActive || isPracticeActive || isOnlineTestActive)) {
                 setDisplayData([LIVE, Recorded, Practice, Onlinetestseries]);
@@ -76,7 +72,7 @@ function NeetCoursepage({ pageclass, courseData }) {
         }
         FilteringThedata();
 
-    }, [isLiveActive, isRecordedActive, isPracticeActive, isOnlineTestActive,courseData])
+    }, [isLiveActive, isRecordedActive, isPracticeActive, isOnlineTestActive, courseData])
 
 
     const style1 = {

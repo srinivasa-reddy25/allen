@@ -1,0 +1,28 @@
+.faq-item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+    width: 100%;
+    cursor: pointer;
+}
+.faq-item-heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.faq-item-heading{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.faq-item-description{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    align-self: flex-start;
+}

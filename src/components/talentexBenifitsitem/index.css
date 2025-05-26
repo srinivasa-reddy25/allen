@@ -1,0 +1,36 @@
+.talentexbenifitsitem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    min-height: 300px;
+    max-height: 300px;
+    gap: 10px;
+
+}
+.benifitesimage{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    align-self: flex-start;
+    text-align: start;
+    margin: 0;
+}
+.description{
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    align-self: flex-start;
+    text-align: start;
+    margin: 0;
+}

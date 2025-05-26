@@ -1,0 +1,352 @@
+.talentexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 140px;  
+}
+.TalentexHeropart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    height: 100%;
+    margin-top: 50px;
+}
+.TalentexHeropartRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 65%;
+    height: 100%;
+}
+.talentexspan{
+    color: #0f45c2;
+}
+.rewardpoints{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+.rewardpoint{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    align-self: flex-start;
+}
+.rewardpoint img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.rewardsimage{
+    width: 90%;
+    margin-right: 10px;
+    margin-top: 80px;
+}
+.talentexherotitle{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;    
+    margin: 0;
+}
+.BenifitsofTalentexcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+.BenifitsofTalentex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    gap: 20px;
+}
+.rewardsrankbutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #318cec;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.rewardsrankbutton:hover{
+    background-color: #0f45c2;
+}
+
+
+
+.registrationformcontainer{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    height: 100%;
+    /* background-color: #ff0000; */
+}
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+}
+.limitedOffertexrt{
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    background-color:#f66b04;
+    padding: 5px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.registrationformeading{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 35px;
+}
+.registrationformline{
+    width: 100%;
+    height: 2px;
+    background-color: #0f45c2;
+    margin-top: 10px;
+}
+.namecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.namecontainer label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: start;
+    align-self: flex-start;
+}
+.namecontainer input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+.parentnamecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.parentnamecontainer label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: start;
+    align-self: flex-start;
+}
+.parentnamecontainer input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+.mobilecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.mobilecontainer label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: start;
+    align-self: flex-start;
+}
+.mobilecontainer input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+.PresentClasscontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.PresentClasscontainer label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: start;
+    align-self: flex-start;
+}
+.PresentClasscontainer select{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 1  0px;
+    font-size: 16px;
+}
+.CareerGoalcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.CareerGoalcontainer label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: start;
+    align-self: flex-start;
+}
+.CareerGoalcontainer select{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 1  0px;
+    font-size: 16px;
+}
+.statecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.statecontainer label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: start;
+    align-self: flex-start;
+}
+.statecontainer select{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 1  0px;
+    font-size: 16px;
+}
+.examdatecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.examdatecontainer label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: start;
+    align-self: flex-start;
+}
+.examdatecontainer select{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+.registrationformbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: #318cec;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+}
+.TandC{
+    font-size: 12px;
+}
+
+.Talentexstatscontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.talenttaxStats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+}

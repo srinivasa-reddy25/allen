@@ -177,6 +177,15 @@
     ],
     "class11NeetCoursePageData": [
         {
+            "categories": [
+                "Live Online Courses",
+                "Self Study Courses",
+                "Test Series",
+                "Practice Packages"
+            ]
+        },
+        {
+            "category": "Live Online Courses",
             "filtertype": "LIVE",
             "filterText": "LIVE",
             "title": "Nurture Online Course",
@@ -193,6 +202,7 @@
             "tag": ""
         },
         {
+            "category": "Live Online Courses",
             "filtertype": "LIVE",
             "filterText": "LIVE",
             "title": "Nurture Online Course",
@@ -209,6 +219,7 @@
             "tag": "NEW LAUNCH"
         },
         {
+            "category": "Self Study Courses",
             "filtertype": "RECORDED",
             "filterText": "RECORDED",
             "title": "Nurture Self – Study Plus",
@@ -225,6 +236,7 @@
             "tag": "AOSAT SCHOOL ELIGIBLE"
         },
         {
+            "category": "Self Study Courses",
             "filtertype": "RECORDED",
             "filterText": "RECORDED",
             "title": "Nurture Self–Study Classic",
@@ -240,6 +252,7 @@
             "tag": ""
         },
         {
+            "category": "Test Series",
             "filtertype": "ONLINETESTSERIES",
             "filterText": "ONLINE TEST SERIES",
             "title": "Nurture Test Series",
@@ -256,6 +269,7 @@
             "tag": ""
         },
         {
+            "category": "Test Series",
             "filtertype": "ONLINETESTSERIES",
             "filterText": "OFFLINE TEST SERIES",
             "title": "Nurture Test Series (Allen DLP)",
@@ -271,6 +285,7 @@
             "tag": ""
         },
         {
+            "category": "Practice Packages",
             "filtertype": "PRACTICE",
             "filterText": "PRACTICE",
             "title": "Nurture Practice Package",
@@ -287,6 +302,15 @@
     ],
     "class12NeetCoursePageData": [
         {
+            "categories": [
+                "End-to-End Preparation Courses",
+                "Essential Add-On Courses",
+                "Test Series",
+                "Practice Package"
+            ]
+        },
+        {
+            "category": "End-to-End Preparation Courses",
             "filtertype": "LIVE",
             "filterText": "LIVE",
             "title": "Enthusiast Online Course",
@@ -303,6 +327,7 @@
             "tag": ""
         },
         {
+            "category": "Essential Add-On Courses",
             "filtertype": "LIVE",
             "filterText": "LIVE",
             "title": "PowerPlus Online Course",
@@ -319,6 +344,7 @@
             "tag": ""
         },
         {
+            "category": "Essential Add-On Courses",
             "filtertype": "RECORDED",
             "filterText": "RECORDED + TEST SERIES",
             "title": "Enthusiast Self – Study Plus",
@@ -335,6 +361,7 @@
             "tag": "AOSAT SCHOOL ELIGIBLE"
         },
         {
+            "category": "Essential Add-On Courses",
             "filtertype": "RECORDED",
             "filterText": "RECORDED",
             "title": "Enthusiast Self–Study Classic",
@@ -350,6 +377,7 @@
             "tag": ""
         },
         {
+            "category": "Essential Add-On Courses",
             "filtertype": "LIVE",
             "filterText": "LIVE",
             "title": "NEET 2026 | AARAMBH Batch | हिंदी माध्यम | Class 12",
@@ -365,6 +393,7 @@
             "tag": ""
         },
         {
+            "category": "Test Series",
             "filtertype": "ONLINETESTSERIES",
             "filterText": "ONLINE TEST SERIES",
             "title": "Enthusiast Test Series",
@@ -380,6 +409,7 @@
             "currency": "₹"
         },
         {
+            "category": "Test Series",
             "filtertype": "ONLINETESTSERIES",
             "filterText": "OFFLINE TEST SERIES",
             "title": "Leader Test Series (Allen DLP)",
@@ -394,6 +424,7 @@
             "currency": "₹"
         },
         {
+            "category": "Practice Package",
             "filtertype": "PRACTICE",
             "filterText": "PRACTICE",
             "title": "Enthusiast Practice Package",
@@ -410,6 +441,15 @@
     ],
     "class12passNeetCoursePageData": [
         {
+            "categories": [
+                "End-to-End Preparation Courses",
+                "Essential Add-On Courses",
+                "Test Series",
+                "Practice Package"
+            ]
+        },
+        {
+            "category": "End-to-End Preparation Courses",
             "filtertype": "LIVE",
             "filterText": "LIVE",
             "title": "Leader Online Course",
@@ -426,6 +466,7 @@
             "tag": "UP TO 90% SCHOLARSHIP"
         },
         {
+            "category": "End-to-End Preparation Courses",
             "filtertype": "RECORDED",
             "filterText": "RECORDED",
             "title": "Achiever Online Course",
@@ -442,6 +483,7 @@
             "tag": "UP TO 90% SCHOLARSHIP"
         },
         {
+            "category": "Essential Add-On Courses",
             "filtertype": "LIVE",
             "filterText": "LIVE",
             "title": "PowerPlus Online Course",
@@ -455,9 +497,43 @@
             "taxApplicable": true,
             "ctaText": "Know more",
             "currency": "₹",
+            "tag": "BATCH FULL"
+        },
+        {
+            "category": "Essential Add-On Courses",
+            "filtertype": "RECORDED",
+            "filterText": "RECORDED",
+            "title": "Leader Self-Study Plus",
+            "batchType": "Video Lectures + Test Series",
+            "features": [
+                "Latest recordings covering full syllabus",
+                "Digital study material incl. books, RACEEs & more",
+                "24 (part + full) syllabus tests"
+            ],
+            "price": 9000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
             "tag": ""
         },
         {
+            "category": "Essential Add-On Courses",
+            "filtertype": "RECORDED",
+            "filterText": "RECORDED",
+            "title": "Leader Self Study Classic",
+            "batchType": "Video Lectures",
+            "features": [
+                "Latest Recordings covering full syllabus",
+                "Digital study material incl. books, RACEEs & more"
+            ],
+            "price": 5000,
+            "taxApplicable": true,
+            "ctaText": "Know more",
+            "currency": "₹",
+            "tag": ""
+        },
+        {
+            "category": "Essential Add-On Courses",
             "filtertype": "LIVE",
             "filterText": "LIVE",
             "title": "NEET 2026 | AARAMBH Batch | हिंदी माध्यम | Class 12+",
@@ -466,13 +542,14 @@
                 "15 से ज़्यादा ऑनलाइन टेस्ट",
                 "मेंटॉरिंग, शैक्षणिक मार्गदर्शन और बहुत कुछ"
             ],
-            "price": 3983,
+            "price": 5084,
             "taxApplicable": true,
             "ctaText": "Know more",
             "currency": "₹",
             "tag": ""
         },
         {
+            "category": "Test Series",
             "filtertype": "ONLINETESTSERIES",
             "filterText": "ONLINE TEST SERIES",
             "title": "Leader Test Series: Target 2026",
@@ -488,6 +565,7 @@
             "currency": "₹"
         },
         {
+            "category": "Test Series",
             "filtertype": "ONLINETESTSERIES",
             "filterText": "OFFLINE TEST SERIES",
             "title": "Leader Test Series (Allen DLP)",
@@ -502,6 +580,7 @@
             "currency": "₹"
         },
         {
+            "category": "Practice Package",
             "filtertype": "PRACTICE",
             "filterText": "PRACTICE",
             "title": "Leader Practice Package",
@@ -514,6 +593,85 @@
             "taxApplicable": true,
             "ctaText": "Know more",
             "currency": "₹"
+        }
+    ],
+    "benefitsofTalentex": [
+        {
+            "title": "National Ranks",
+            "description": "Get an all-India rank and detailed subject-wise performance report to know where you stand.",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_avif,q_auto/v1747116122/ersus5s9krkc7mu6cro5.svg?_upload_ref=ic_img_tool&__ar__=1.08"
+        },
+        {
+            "title": "Competitive Success Index",
+            "description": "Gauge your future potential in JEE, NEET, Olympiads, and other key competitive exams.",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_avif,q_auto/v1747116175/emruhvtgjleqasb0dzt5.svg?_upload_ref=ic_img_tool&__ar__=1.00"
+        },
+        {
+            "title": "Exciting Rewards",
+            "description": "Win from ₹1.25 Cr worth of cash prizes & up to 90% scholarship on ALLEN Online Courses.",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_avif,q_auto/v1747116221/as5dgb9cbxgzvinucykk.svg?_upload_ref=ic_img_tool&__ar__=1.00"
+        },
+        {
+            "title": "Early Competitive Edge",
+            "description": "Experience real exam patterns early and build the mindset for future competitive success.",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_800,f_avif,q_auto/v1747116271/e3gajzl9dn6qk4p2gwij.svg?_upload_ref=ic_img_tool&__ar__=1.00"
+        }
+    ],
+    "allYouneettoKnow": [
+        {
+            "id": 1,
+            "title": "Who can take this exam?",
+            "discription": "The online mode of TALLENTEX is for students interested in enrolling in ALLEN's Online Courses, currently in classes 5-10.",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1747131764/hliku2h4msyqpkoj5shv.svg?_upload_ref=ic_img_tool&__ar__=1.60",
+            "isActive": false
+        },
+        {
+            "id": 2,
+            "title": "How to register?",
+            "discription": "Fill out the form above. You’ll get a confirmation on your registered mobile number. Log in using your number and OTP",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1747131916/fnus1fuzody44zecld8b.svg?_upload_ref=ic_img_tool&__ar__=1.60",
+            "isActive": true
+        },
+        {
+            "id": 3,
+            "title": "How do I take the exam?",
+            "discription": "The test will be monitored online at www.allen.in. Log in on your chosen date and time slot using your registered mobile number. Keep your camera on and ensure a stable internet connection.",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1747132001/h5ucv55bp3lb3wh7vja0.svg?_upload_ref=ic_img_tool&__ar__=1.60",
+            "isActive": true
+        },
+        {
+            "id": 4,
+            "title": "Where do I check the scholarship details?",
+            "discription": "Scholarships will be announced on www.allen.in in November 2025. You’ll also receive the details via SMS and inside your account. These can be used at the time of enrolment.",
+            "imageUrl": "https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1200,f_avif,q_auto/v1747132047/rfoqxwckidupnyzgur01.svg?_upload_ref=ic_img_tool&__ar__=1.60",
+            "isActive": true
+        }
+    ],
+    "talentexfaqs": [
+        {
+            "id": 1,
+            "title": "What is the syllabus, marking scheme & overall exam pattern for the TALLENTEX exam?",
+            "discription": "The exam is based on the NCERT syllabus of both the previous and current class. You can also find the exam pattern under the 'Syllabus & exam pattern' section."
+        },
+        {
+            "id": 2,
+            "title": "What is the duration and medium of the exam?",
+            "discription": "The exam will be 2 hours long and conducted in English."
+        },
+        {
+            "id": 3,
+            "title": "Do I need to create a new account for TALLENTEX 2025 if I registered for TALLENTEX 2024?",
+            "discription": "Yes, you must create a new account using your mobile number as the login credential."
+        },
+        {
+            "id": 4,
+            "title": "Can I reschedule the exam if I miss it?",
+            "discription": "No, rescheduling is not allowed. Kindly ensure that you attend the test at your chosen date and time."
+        },
+        {
+            "id": 5,
+            "title": "Who can I contact for support or queries?",
+            "discription": "For any assistance, Call: +91-9513736499 (8:00 AM – 8:00 PM), or email us at wecare@allen.in"
         }
     ]
 }
