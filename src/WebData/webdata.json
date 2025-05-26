@@ -673,5 +673,67 @@
             "title": "Who can I contact for support or queries?",
             "discription": "For any assistance, Call: +91-9513736499 (8:00 AM – 8:00 PM), or email us at wecare@allen.in"
         }
+    ],
+    "callbackFaqs": [
+        {
+            "id": 1,
+            "title": "Which is the best online coaching for JEE?",
+            "discription": "ALLEN Digital is considered one of the best platforms for JEE preparation due to its experienced faculty, structured courses, and well-designed test series."
+        },
+        {
+            "id": 2,
+            "title": "Is online coaching effective for JEE?",
+            "discription": "Yes, online coaching can be highly effective for JEE with the right platform. It offers flexible learning, recorded lectures, doubt-solving sessions, and regular tests."
+        },
+        {
+            "id": 3,
+            "title": "Is self-study better for JEE?",
+            "discription": "Self-study works well for disciplined students, but structured guidance from online coaching enhances understanding, practice, and exam readiness."
+        },
+        {
+            "id": 4,
+            "title": "Which online coaching is best for NEET?",
+            "discription": "ALLEN Digital is widely trusted for NEET preparation due to its NCERT-focused content, experienced faculty, and high-quality mock tests."
+        },
+        {
+            "id": 5,
+            "title": "Can I do online coaching for NEET-UG?",
+            "discription": "Yes, NEET-UG aspirants can opt for online coaching with ALLEN Digital, which offers live and recorded classes, doubt sessions, and mock tests."
+        },
+        {
+            "id": 6,
+            "title": "Can I study at home for NEET-UG?",
+            "discription": "Absolutely. With the help of online coaching platforms like ALLEN Digital, you can effectively prepare for NEET-UG from the comfort of your home."
+        },
+        {
+            "id": 7,
+            "title": "Which is the best online coaching for Classes 6th to 10th?",
+            "discription": "ALLEN Digital offers dedicated online courses for Classes 6th to 10th with interactive classes, concept-building modules, and doubt-solving support."
+        },
+        {
+            "id": 8,
+            "title": "Should I go for online coaching for Classes 6th to 10th?",
+            "discription": "Online coaching can be a great support for students in Classes 6th to 10th to strengthen fundamentals and stay ahead in competitive preparation."
+        },
+        {
+            "id": 9,
+            "title": "Is self-study effective for Classes 6th to 10th?",
+            "discription": "Self-study helps in developing discipline, but guided online coaching enhances conceptual clarity, especially in subjects like Math and Science."
+        },
+        {
+            "id": 10,
+            "title": "What are the various courses offered by ALLEN Digital?",
+            "discription": "ALLEN Digital offers online courses for JEE, NEET, Olympiads, NTSE, and school-based curriculum for students of Classes 6 to 12."
+        },
+        {
+            "id": 11,
+            "title": "In how many languages courses are available at ALLEN Digital?",
+            "discription": "Courses on ALLEN Digital are available in English, Hindi, and Hinglish to suit the diverse linguistic preferences of students."
+        },
+        {
+            "id": 12,
+            "title": "What will be the fee structure for online classes?",
+            "discription": "The fee structure varies based on the course and grade level. ALLEN Digital offers flexible plans with options for full-year courses and crash courses."
+        }
     ]
 }

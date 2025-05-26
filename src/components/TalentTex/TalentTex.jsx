@@ -8,6 +8,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import AllenAppAdvantage from '../SubComponents/AllenAppAdvantages/allenappAdvantage'
 import {allYouneettoKnow} from '../../WebData/webdata.json';
 
+import { talentexfaqs } from '../../WebData/webdata.json'
+
 function TalentTex() {
     return (
         <div className='talentexContainer'>
@@ -147,7 +149,7 @@ function TalentTex() {
                 <img className='talenttaxStats' src="https://res.cloudinary.com/dpzpn3dkw/image/upload/w_1600,f_avif,q_auto/v1747208760/tldooemobx2htmwpi8zl.png?_upload_ref=ic_img_tool&__ar__=4.14" alt="" />
             </div>
             <AllenAppAdvantage AllenAppAdvantageData={allYouneettoKnow} namecomponent={'All you need to know'}/>
-            <Faqscomponent/>
+            <Faqscomponent talentexfaqs={talentexfaqs}/>
         </div>
     )
 }

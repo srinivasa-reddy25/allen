@@ -12,23 +12,25 @@ import Coursescomponent from '../CoursesComponent/coursescomponent'
 import Add from '../SubComponents/Add/add'
 
 
+function NeetCoursepage({ pageclass, courseData, activeFilters }) {
+    console.log("helwofjakefbeajfbaj",activeFilters)
 
-function NeetCoursepage({ pageclass, courseData }) {
+    // console.log("live activaaa",activeFilters["isRecordedActive"]);
 
-    const [isLiveActive, setIsLiveActive] = useState(false);
+    const [isLiveActive, setIsLiveActive] = useState(false );
     const [isRecordedActive, setIsRecordedActive] = useState(false);
     const [isPracticeActive, setIsPracticeActive] = useState(false);
     const [isOnlineTestActive, setIsOnlineTestActive] = useState(false);
     const [displayData, setDisplayData] = useState([]);
 
     const { categories } = courseData[0]
-    console.log(categories[0]);
+
 
     const LIVE = courseData.filter((course) => course.filtertype === "LIVE")
     const Recorded = courseData.filter((course) => course.filtertype === "RECORDED")
     const Practice = courseData.filter((course) => course.filtertype === "PRACTICE")
     const Onlinetestseries = courseData.filter((course) => course.filtertype === "ONLINETESTSERIES")
-    
+
 
     const onclikinglivefilter = () => {
         setIsLiveActive((prev) => !prev);
@@ -48,6 +50,12 @@ function NeetCoursepage({ pageclass, courseData }) {
     }
 
     useEffect(() => {
+        console.log("useEffect is running");
+        setIsLiveActive(activeFilters.isLiveActive);
+        setIsRecordedActive(activeFilters.isRecordedActive);
+        setIsPracticeActive(activeFilters.isPracticeActive);
+        setIsOnlineTestActive(activeFilters.isOnlineTestActive);
+
         const FilteringThedata = () => {
             if (!(isLiveActive || isRecordedActive || isPracticeActive || isOnlineTestActive)) {
                 setDisplayData([LIVE, Recorded, Practice, Onlinetestseries]);
@@ -67,13 +75,12 @@ function NeetCoursepage({ pageclass, courseData }) {
                     filteredData.push(Onlinetestseries);
                 }
                 setDisplayData(filteredData);
-                console.log(filteredData);
+                // console.log(filteredData);
             }
         }
         FilteringThedata();
 
     }, [isLiveActive, isRecordedActive, isPracticeActive, isOnlineTestActive, courseData])
-
 
     const style1 = {
         backgroundColor: "#d6e8ff",
@@ -82,7 +89,6 @@ function NeetCoursepage({ pageclass, courseData }) {
 
     return (
         <div className='CoursesPageContainer'>
-            {/* <hr /> */}
             <div className='CoursesPage'>
                 <h1 className='Coursepagemainheading'>NEET courses for Class {pageclass}</h1>
                 <div className='filtersbtnContainer'>

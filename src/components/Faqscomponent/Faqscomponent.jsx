@@ -2,10 +2,9 @@ import './index.css'
 
 import { useState } from 'react'
 
-import { talentexfaqs } from '../../WebData/webdata.json'
 import Faqitemcomponent from '../Faqitemcomponent/Faqitemcomponent'
 
-function Faqscomponent() {
+function Faqscomponent({talentexfaqs}) {
     const [activeIndex, setActiveIndex] = useState(null)
 
     const handleToggle = (index) => {

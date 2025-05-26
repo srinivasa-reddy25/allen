@@ -1,10 +1,10 @@
 import './index.css'
 import TestimonialsItem from '../TestimonialItems/testimonialItems';
-import {TestimonialsData} from '../../../WebData/webdata.json'
 
 
 
-const Testimonials = () => {
+
+const Testimonials = ({TestimonialsData}) => {
     return (
         <div className='TestimonialsMainContainer'>
             <div className=' testimonials'>

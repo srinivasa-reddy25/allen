@@ -1,0 +1,17 @@
+.results-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-top: 150px;
+    width: 100vw;
+}
+.result-image-container{
+    width: 75%;
+    margin-bottom: 20px;
+}
+.result-image{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}

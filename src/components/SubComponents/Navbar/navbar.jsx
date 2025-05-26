@@ -24,11 +24,35 @@ const Navbar = () => {
                         </ul>
 
                     </li>
-                    <li>
-                        Test Series
+                    <li className='courselinkdropdown'>
+                        <span className='courselinkname'>Test Series</span>
+                        <ul className="courselinkdropdown_menu">
+                            <li className='neetlinksubdropdown'>
+                                <span className='neetlinkname'>NEET</span>
+                                <ul className="neetlinkdropdown_submenu">
+                                    <Link to="/neet/online-coaching-class-11/Program_Mode=online_test_series+recorded+practice" className='neetlinkdropdown_link'>Class 11</Link>
+                                    <Link to="/neet/online-coaching-class-12/Program_Mode=online_test_series+recorded+practice" className='neetlinkdropdown_link'>Class 12</Link>
+                                    <Link to="/neet/online-coaching-class-12-droppers/Program_Mode=online_test_series+recorded+practice" className='neetlinkdropdown_link'>Class 12 plus</Link>
+                                </ul>
+                            </li>
+                            <li className='jee_link'>JEE</li>
+                        </ul>
+
                     </li>
-                    <li>
-                        Results
+                     <li className='courselinkdropdown'>
+                        <span className='courselinkname'>Results</span>
+                        <ul className="courselinkdropdown_menu">
+                            <li className='neetlinksubdropdown'>
+                                <span className='neetlinkname'>NEET</span>
+                                <ul className="neetlinkdropdown_submenu">
+                                    <Link to="/neet/results-2024" className='neetlinkdropdown_link'>2024</Link>
+                                    <Link to="/neet/results-2023" className='neetlinkdropdown_link'>2023</Link>
+                                    <Link to="/neet/results-2022" className='neetlinkdropdown_link'>2022</Link>
+                                </ul>
+                            </li>
+                            <li className='jee_link'>JEE</li>
+                        </ul>
+
                     </li>
                     <li>
                         Study Materials
@@ -39,17 +63,14 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li>
-                        Books
-                    </li>
-                    <li>
                         More
                     </li>
                 </ul>
             </div>
             <div className='navbar_left'>
-                <div className='phone_call'>
+                <Link className='phone_call' to="/schedule-a-call-back">
                     <FaPhone />
-                </div>
+                </Link>
                 <button className='login_btn'>
                     Login
                 </button>
